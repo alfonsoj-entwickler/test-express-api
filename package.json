@@ -1,23 +1,19 @@
 {
-  "name": "cypress-course",
-  "version": "0.1.0",
-  "private": true,
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "testing express api",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "",
+    "start": ""
   },
+  "author": "@alfonsoj-entwickler",
+  "license": "ISC",
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.1",
-    "@mui/material": "^5.14.1",
-    "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "@types/express": "^4.17.17"
   }
 }
